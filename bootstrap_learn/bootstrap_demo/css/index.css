@@ -1,0 +1,43 @@
+/**********************通用样式******************************/
+body{
+	font-family: "arial, helvetica, sans-serif";
+	color: #000000;
+}
+/**********************通用样式******************************/
+
+/**********************头部样式******************************/
+#demo_header{
+	
+}
+
+#demo_header .top-bar{
+	height: 40px;
+	line-height: 39px;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+#demo_header .top-bar .container .row > div + div{
+	border-left: 1px solid #e0e0e0;
+}
+
+#demo_header .top-bar .container .row .top-bar-1 a{
+	position: relative;
+}
+
+#demo_header .top-bar .container .row .top-bar-1 a img{
+	display: none;
+	position: absolute;
+	left: 50%;
+	margin-left: -60px;
+	margin-top: -10px;
+	z-index: 999;
+}
+
+#demo_header .top-bar .container .row .top-bar-1 a:hover img{
+	display: block;
+}
+
+#navbarSupportedContent{
+	height: 64px;
+}
+/**********************头部样式******************************/
